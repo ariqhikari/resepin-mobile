@@ -30,7 +30,7 @@ class ScanFridgesController extends GetxController {
   moveToResult() async {
     ApiReturnValue<List<Menu>> result = await MenuServices.getMenuByFridges(
       type: IngredientType.text,
-      image: imageShow,
+      image: imageShow!,
     );
 
     if (result.value == null) {
