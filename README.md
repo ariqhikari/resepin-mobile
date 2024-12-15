@@ -1,16 +1,35 @@
-# resepin
+# Resepin
 
-A new Flutter project.
+Resepin is a Flutter application designed to help users explore and discover recipes tailored to their preferences and available ingredients.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Discover a wide variety of recipes.
+- Get personalized recommendations based on your available ingredients.
+- Save your favorite recipes for easy access.
+- Easy-to-follow instructions for cooking delicious meals.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To get started with Resepin:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/resepin.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd resepin
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the application:
+   ```bash
+   flutter run
+   ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
